@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crie sua conta</title>
+</head>
+<body>
+    <!--Cabeçalho-->
+    <header>
+        <h1>Crie sua conta</h1>
+        <nav>
+            <a href="index.html">Voltar para página inicial</a>
+        </nav>
+    </header>
+
+    <!--Formulário de cadastro-->
+    <main>
+        <section>
+            <form>
+                <div>
+                    <label for="nome">Nome completo completo</label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha" required>
+                </div>
+
+                <div>
+                    <label>Perfil de Aluno</label>
+                    <label>
+                        <input type="radio" name="perfil" value="estudante" required>
+                        Estudante
+                    </label>
+                    <label>
+                        <input type="radio" name="perfil" value="professor">
+                        Professor/Hobbista
+                    </label>
+                </div>
+
+                <div>
+                    <label for="trilha">Trilha de interesse</label>
+                    <select name="trilha" id="trilha" required>
+                        <option value="">Selecione uma trilha</option>
+                        <option value="basica">Robótica Básica</option>
+                        <option value="ia">Inteligencia Artificial</option>
+                        <option value="programacao">Programação</option>
+                    </select>
+                </div>
+
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+oolalaa
+    <!--Rodapé-->
+    <footer>
+        <p>&copy; 2026 RoboMaker kits educacionais</p>
+    </footer>
+</body>
+</html>
